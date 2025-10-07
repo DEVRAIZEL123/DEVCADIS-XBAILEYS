@@ -30,17 +30,21 @@ Here is an example you can use: [example.ts](Example/example.ts) or here is a tu
 
 Use the stable version:
 ```bash
-npm install @drayyy/XD-Baileys
+npm install git+https://github.com/DEVRAIZEL123/DEVCADIS-XBAILEYS.git
 ```
 
 Use the edge version (no guarantee of stability, but latest fixes + features)
 ```bash
-yarn add @drayyy/XD-Baileys@latest
+yarn add https://github.com/DEVRAIZEL123/DEVCADIS-XBAILEYS.git
 ```
 
 Then import your code using:
 ```javascript
-const { default: makeWASocket } = require("@drayyy/XD-Baileys")
+// CommonJS
+const { default: makeWASocket } = require("DEVCADIS-XBaileys");
+
+// ou en ES Modules
+import makeWASocket from "DEVCADIS-XBaileys";
 ```
 # Links
 
